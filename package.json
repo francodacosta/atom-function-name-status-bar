@@ -1,13 +1,12 @@
 {
   "name": "function-name-in-status-bar",
   "main": "./lib/function-name-status-bar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "shows the name of the function you are working on the status bar",
   "repository": "https://github.com/francodacosta/atom-function-name-status-bar",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
