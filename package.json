@@ -1,0 +1,13 @@
+{
+  "name": "function name in status bar",
+  "main": "./lib/function-name-status-bar",
+  "version": "0.1.0",
+  "description": "shows the name of the function you are working on the status bar",
+  "repository": "https://github.com/atom/php-function-name",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
