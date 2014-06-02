@@ -151,7 +151,6 @@ class Job extends AbstractEntity
     public function setSmartVariableName($value)
     {
         $this->smartVariableName = $value;
-
         return $this;
     }
 
