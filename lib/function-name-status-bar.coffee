@@ -19,7 +19,7 @@ module.exports =
     # @phpFunctionNameView.destroy()
 
   serialize: ->
-    phpFunctionNameViewState: @phpFunctionNameView.serialize()
+    # phpFunctionNameViewState: @phpFunctionNameView.serialize()
 
 
   getCurrentFunctionName: ->
