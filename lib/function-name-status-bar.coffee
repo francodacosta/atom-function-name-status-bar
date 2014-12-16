@@ -16,7 +16,7 @@ module.exports =
               me.showFunctionNameInStatus(evt)
 
   deactivate: ->
-    @phpFunctionNameView.destroy()
+    # @phpFunctionNameView.destroy()
 
   serialize: ->
     phpFunctionNameViewState: @phpFunctionNameView.serialize()
