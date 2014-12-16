@@ -9,7 +9,6 @@ module.exports =
       me = this
       atom.workspaceView.eachEditorView (editor) ->
           editor.on 'keydown', (evt) =>
-              console.log atom.config, atom.config.get('function-name-in-status-bar.computeOnKeys')
               if evt.which in atom.config.get 'function-name-in-status-bar.computeOnKeys'
                   me.showFunctionNameInStatus(evt)
 
