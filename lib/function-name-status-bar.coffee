@@ -1,13 +1,16 @@
 module.exports =
 
-  configDefaults:
-      computeOnKeys: [40, 39, 38, 37, 34, 33]
+  config:
+      computeOnKeys:
+          type: 'array'
+          default: [40, 39, 38, 37, 34, 33]
 
   activate: (state) ->
       me = this
       atom.workspaceView.eachEditorView (editor) ->
           editor.on 'keydown', (evt) =>
-              if evt.which in atom.config.get 'php-function-name.computeOnKeys'
+              console.log atom.config, atom.config.get('function-name-status-bar.computeOnKeys')
+              if evt.which in atom.config.get 'function-name-status-bar.computeOnKeys'
                   me.showFunctionNameInStatus(evt)
 
           editor.on 'click', (evt) =>
